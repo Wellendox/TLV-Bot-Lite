@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TLVLibrary", "TLVLibrary\TLVLibrary.csproj", "{BE10691A-74BD-4F03-A2AA-63682B1F6A39}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TLVBot", "TLV Bot\TLVBot.csproj", "{688D326C-D84B-462E-9653-F56674E63A7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE10691A-74BD-4F03-A2AA-63682B1F6A39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE10691A-74BD-4F03-A2AA-63682B1F6A39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE10691A-74BD-4F03-A2AA-63682B1F6A39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE10691A-74BD-4F03-A2AA-63682B1F6A39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{688D326C-D84B-462E-9653-F56674E63A7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{688D326C-D84B-462E-9653-F56674E63A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{688D326C-D84B-462E-9653-F56674E63A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{688D326C-D84B-462E-9653-F56674E63A7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D0B469E-1751-472C-91F0-0CBF036999BD}
+	EndGlobalSection
+EndGlobal
