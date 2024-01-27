@@ -1,14 +1,14 @@
 ﻿using Discord.Commands;
+using TLVBot.Modules.Admin.Interfaces;
 
 namespace TLVBot.Modules.Memes;
 
-public class Tribals : TlvInteractionModuleBase, ITribals
+public class Monke : TlvInteractionModuleBase, IMonke
 {
     [SlashCommand("monke", "Mmmmm, monke.")]
-    [Alias("tribals", "monkey", "monkeys", "tribal")]
     [Remarks("**Type:** Meme\n**Parameters:** None")]
     [DefaultMemberPermissions(GuildPermission.SendMessages)]
-    public async Task TribalsAsync()
+    public async Task MonkeAsync()
     {
         var memeInput = new List<string>{
             "https://www.youtube.com/watch?v=SA2o6Nac9Yg",
