@@ -4,7 +4,7 @@ namespace TLVBot.Modules.Memes;
 
 public class Linux : TlvInteractionModuleBase, ILinux
 {
-    [SlashCommand("linux", "Tell me you have autism without telling me you have autism")]
+    [SlashCommand("linux", "Memes about Linux users.")]
     [Remarks("**Type:** Meme\n**Parameters:** None")]
     [DefaultMemberPermissions(GuildPermission.SendMessages)]
     public async Task LinuxAsync()
